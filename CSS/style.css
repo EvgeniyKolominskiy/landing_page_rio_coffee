@@ -5,3 +5,58 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+:root {
+	--white-color: #F6F7F8;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 95px;
+	background-color: #262626;
+}
+
+.logo {
+	font-family: 'Courgette', cursive;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: var(--white-color);
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+.navigation {
+	color: var(--white-color);
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.navigation + .navigation {
+	margin-left: 30px;
+}
+
+.bt_contact {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: var(--white-color);
+	background-color: #262626;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	padding: 15px 25px;
+	margin-right: 50px;
+}
+
+main {
+
+}
